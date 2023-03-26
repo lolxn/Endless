@@ -1,5 +1,1 @@
-pyautogui
-time
-platform
-os
-colorama
+pyautogui>=0.9.53
