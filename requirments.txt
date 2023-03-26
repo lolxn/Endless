@@ -1,0 +1,5 @@
+pyautogui
+time
+platform
+os
+colorama
