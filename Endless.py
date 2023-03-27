@@ -3,6 +3,7 @@ import time
 import os
 from colorama import Fore,Style
 ops=pt.system()
+print(ops)
 try:
     import pyautogui as py
 except:
