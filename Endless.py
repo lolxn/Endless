@@ -1,8 +1,14 @@
-import pyautogui as py
-import time
 import platform as pt
+import time
 import os
 from colorama import Fore,Style
+ops=pt.system()
+try:
+    import pyautogui as py
+except:
+    if ops=="Android":
+        print("This Code Doesn't Work On Android")
+        exit()
 
 def lolan():
     print("\n"+Fore.RED+name)
@@ -51,8 +57,7 @@ name="""░█▀▀▀ ░█▄─░█ ░█▀▀▄ ░█─── ░�
 ░█▄▄▄ ░█──▀█ ░█▄▄▀ ░█▄▄█ ░█▄▄▄ ░█▄▄▄█ ░█▄▄▄█
 
                                         BY : lolxn__"""
-note="Note : I Won't Be Responsible For Any Damage Caused By The Script, Use At Your Own Risk"
-ops=pt.system()
+note="Note : I Won't Be Responsible For Any Damage Caused By The Script, Use At Your Own Risk"
 if ops=="Windows":
     os.system("cls")
 else:
